@@ -18,7 +18,7 @@ export default function App() {
   return (
     <div>
       <Exmple />
-      <Recursion files={files} />
+      <Recursion key={'a'} files={files} />
     </div>
   );
 }
