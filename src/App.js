@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './style.css';
 import Recursion from './recursion';
 import files from '../data/test.json';
+import Bubbling from './eb'
 
 // function Exmple(){
 //   return new Promise(function (resolve, reject) {
@@ -38,6 +39,7 @@ export default function App() {
   return (
     <div>
       {val}
+      <Bubbling />
       <Recursion key={'a'} files={files} />
     </div>
   );
